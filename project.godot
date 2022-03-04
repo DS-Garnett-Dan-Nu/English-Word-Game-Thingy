@@ -11,7 +11,16 @@ config_version=4
 [application]
 
 config/name="English-Word-Game-Thingy"
+run/main_scene="res://scn/Main.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Ref="*res://src/Ref.gd"
+
+[display]
+
+window/size/height=576
 
 [physics]
 
