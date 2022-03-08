@@ -220,11 +220,12 @@ margin_bottom = 80.0
 theme = ExtResource( 2 )
 text = "Z"
 
-[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer"]
+[node name="Board" type="RichTextLabel" parent="CanvasLayer"]
 anchor_left = 0.5
 anchor_right = 0.5
 margin_left = -512.0
 margin_right = 512.0
 margin_bottom = 67.0
 tab_size = 5
-text = "ppppppppppppppp"
+
+[connection signal="pressed" from="CanvasLayer/VowelContainer/A" to="." method="_on_A_pressed"]
