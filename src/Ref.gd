@@ -1,18 +1,15 @@
 extends Node2D
 
 onready var file = 'res://art/Words.txt'
-onready var label = $CL/Label
 
+var word = []
 
-func _ready():    
+func _ready():
 	load_file(file)
 
 func load_file(file):
 	var f = File.new()
 	f.open(file, File.READ)
-	var index = 1
 	while not f.eof_reached():
 		var line = f.get_line()
-		line += " "
-		print(line + str(index))
-		index += 1
+		word.append(line)
