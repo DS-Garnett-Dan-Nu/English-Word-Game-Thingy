@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/zapsplat_office_calculator_button_press_single_002_11984.mp3-cdb96a8c598bfacc76e9e11958db8ea8.mp3str"
+
+[deps]
+
+source_file="res://aud/misc/Clicks/zapsplat_office_calculator_button_press_single_002_11984.mp3"
+dest_files=[ "res://.import/zapsplat_office_calculator_button_press_single_002_11984.mp3-cdb96a8c598bfacc76e9e11958db8ea8.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

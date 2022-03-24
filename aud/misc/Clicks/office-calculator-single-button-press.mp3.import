@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/office-calculator-single-button-press.mp3-8f11c58f77fa25d2d87beb422654a145.mp3str"
+
+[deps]
+
+source_file="res://aud/misc/Clicks/office-calculator-single-button-press.mp3"
+dest_files=[ "res://.import/office-calculator-single-button-press.mp3-8f11c58f77fa25d2d87beb422654a145.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
